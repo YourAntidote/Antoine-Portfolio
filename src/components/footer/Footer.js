@@ -13,7 +13,7 @@ export default function Footer() {
           <a href="https://github.com/YourAntidote/">
           Antoine Haddad {" "}
           </a>
-           - Droits 2023
+           - 2023
         </p>
       </div>
     </Fade>

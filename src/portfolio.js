@@ -36,7 +36,7 @@ const socialMediaLinks = {
   github: "https://github.com/YourAntidote",
   linkedin: "https://www.linkedin.com/in/saadpasta/",
   gmail: "Antoine_Haddad1@yahoo,ca",
-  facebook: "https://www.facebook.com/saad.pasta7",
+
   // Instagram, Twitter and Kaggle are also supported in the links!
   // To customize icons and social links, tweak src/components/SocialMedia
   display: true // Set true to display this section, defaults to false
@@ -63,7 +63,7 @@ https://fontawesome.com/icons?d=gallery */
   softwareSkills: [
     {
       skillName: "html-5",
-      fontAwesomeClassname: "fab  "
+      fontAwesomeClassname: "fab  fa-html5"
     },
     {
       skillName: "css3",
@@ -76,10 +76,6 @@ https://fontawesome.com/icons?d=gallery */
     {
       skillName: "JavaScript",
       fontAwesomeClassname: "fab fa-js"
-    },
-    {
-      skillName: "Unity",
-      fontAwesomeClassname: "fa-brands fa-unity"
     },
     {
       skillName: "sql-database",
@@ -181,17 +177,29 @@ const openSource = {
 // Some big projects you have worked on
 
 const bigProjects = {
-  title: "Big Projects",
-  subtitle: "SOME STARTUPS AND COMPANIES THAT I HELPED TO CREATE THEIR TECH",
+  title: "Mes projets",
+  subtitle: "MES MEILLEURES CRÉATIONS JUSQU'À CE JOUR",
   projects: [
     {
-      image: require("./assets/images/saayaHealthLogo.webp"),
-      projectName: "Saayahealth",
+      image: require("./assets/images/rift.png"),
+      projectName: "Item's Rift",
+      projectDesc: "Item's Rift est un siteweb de type jeu que j'ai crée dans un but récréatif.",
+      footerLink: [
+        {
+          name: "Item's Rift",
+          url: "https://yourantidote.github.io/Items_Rift/"
+        }
+        //  you can add extra buttons here.
+      ]
+    },
+    {
+      image: require("./assets/images/nature.webp"),
+      projectName: "Nature Pure",
       projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
       footerLink: [
         {
-          name: "Visit Website",
-          url: "http://saayahealth.com/"
+          name: "Nature Pure",
+          url: "https://youtu.be/3B1WU681xbU"
         }
         //  you can add extra buttons here.
       ]
