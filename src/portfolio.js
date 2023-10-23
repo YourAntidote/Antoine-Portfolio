@@ -34,7 +34,7 @@ const greeting = {
 
 const socialMediaLinks = {
   github: "https://github.com/YourAntidote",
-  linkedin: "https://www.linkedin.com/in/saadpasta/",
+  linkedin: "https://www.linkedin.com/in/antoine-haddad16/",
   gmail: "Antoine_Haddad1@yahoo,ca",
 
   // Instagram, Twitter and Kaggle are also supported in the links!
@@ -46,7 +46,7 @@ const socialMediaLinks = {
 
 const skillsSection = {
   title: "Ce que je fais",
-  subTitle: "CRAZY FULL STACK DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK",
+  subTitle: "Je sais utilisé une multidute de logiciels et de languages de programmations",
   skills: [
     emoji(
       "⚡ Develop highly interactive Front end / User Interfaces for your web and mobile applications"
@@ -80,6 +80,10 @@ https://fontawesome.com/icons?d=gallery */
     {
       skillName: "sql-database",
       fontAwesomeClassname: "fas fa-database"
+    },
+    {
+      skillName: "Unity",
+      fontAwesomeClassname: "fas unity"
     }
   ],
   display: true // Set false to hide this section, defaults to true
@@ -88,7 +92,7 @@ https://fontawesome.com/icons?d=gallery */
 // Education Section
 
 const educationInfo = {
-  display: true, // Set false to hide this section, defaults to true
+  display: false, // Set false to hide this section, defaults to true
   schools: [
     {
       schoolName: "Collège Montmorency",
@@ -149,19 +153,12 @@ const workExperiences = {
       role: "Équipe de construction et d'électronique",
       company: "Escaparium",
       companylogo: require("./assets/images/logo-escape.png"),
-      date: "June 2023 – Aujourd'hui",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      date: "Juin 2023 – Aujourd'hui",
+      desc: "Je construis des salles d'évasion au sein d'une équipe.",
       descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+        "Assemblage de structures en bois",
+        "Assemblage et soudage de pièces électroniques"
       ]
-    },
-    {
-      role: "Front-End Developer",
-      company: "Quora",
-      companylogo: require("./assets/images/quoraLogo.png"),
-      date: "May 2017 – May 2018",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
     }
   ]
 };
@@ -178,12 +175,13 @@ const openSource = {
 
 const bigProjects = {
   title: "Mes projets",
-  subtitle: "MES MEILLEURES CRÉATIONS JUSQU'À CE JOUR",
+  subtitle: "Mes meilleurs projets jusqu'à ce jour !",
   projects: [
     {
       image: require("./assets/images/rift.png"),
       projectName: "Item's Rift",
-      projectDesc: "Item's Rift est un siteweb de type jeu que j'ai crée dans un but récréatif.",
+      projectDesc: "Item's Rift est un jeu-quiz que j'ai développé en utilisant des langages web à des fins personnelles. Ce quiz est basé sur l'univers du jeu vidéo League of Legends.",
+      technology: "Languages: HTML5, CSS, JavaScript",
       footerLink: [
         {
           name: "Item's Rift",
@@ -193,25 +191,42 @@ const bigProjects = {
       ]
     },
     {
-      image: require("./assets/images/nature.webp"),
-      projectName: "Nature Pure",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      image: require("./assets/images/cristal.webp"),
+      projectName: "Cristal",
+      projectDesc: "Cristal est un projet à la fois visuel et auditif, où chaque membre de l'équipe avait pour mission de créer une composante en 3D et de l'animer.",
+      role: "Rôle: Modélisateur 3D, animateur 3D, monteur vidéo et sonore",
+      technology: "Technologie: Maya, Reaper, VCV Rack, DaVinci Resolve",
       footerLink: [
         {
-          name: "Nature Pure",
-          url: "https://youtu.be/3B1WU681xbU"
+          name: "Cristal - Youtube",
+          url: "https://youtu.be/Jn3yiE3OJA0",
         }
         //  you can add extra buttons here.
       ]
     },
     {
-      image: require("./assets/images/nextuLogo.webp"),
-      projectName: "Nextu",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      image: require("./assets/images/MDM1.png"),
+      projectName: "Mal du Miroir",
+      projectDesc: "Mal du Miroir est un projet vidéo auxquelle j'ai contribué pendant 2 mois avec mes partenaires. Le projet repose sur la technologie du logiciel MadMapper.",
+      role: "Rôle: Cadreur, monteur vidéo et sonore",
+      technology: "Technologie: Maya, Reaper, VCV Rack, DaVinci Resolve et MadMapper",
       footerLink: [
         {
-          name: "Visit Website",
-          url: "http://nextu.se/"
+          name: "Mal du Miroir - Youtube",
+          url: "https://youtu.be/yJVsUHux11Y"
+        }
+      ]
+    },
+    {
+      image: require("./assets/images/MDM1.png"),
+      projectName: "Mal du Miroir",
+      projectDesc: "Mal du Miroir est un projet vidéo auxquelle j'ai contribué pendant 2 mois avec mes partenaires. Le projet repose sur la technologie du logiciel MadMapper.",
+      role: "Rôle: Cadreur, monteur vidéo et sonore",
+      technology: "Technologie: Maya, Reaper, VCV Rack, DaVinci Resolve et MadMapper",
+      footerLink: [
+        {
+          name: "Mal du Miroir - Youtube",
+          url: "https://youtu.be/yJVsUHux11Y"
         }
       ]
     }
@@ -277,7 +292,7 @@ const achievementSection = {
       ]
     }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Blogs Section
@@ -340,7 +355,7 @@ const contactInfo = {
   title: emoji("Me contacter ☎️"),
   subtitle:
   "Envie de discuter d'un projet ou simplement de dire bonjour ? Ma boîte de réception est ouverte à tous.",
-  number: "(408) 408-7396",
+  number: "(408) 408-6666",
   email_address: "Antoine_haddad1@yahoo.ca"
 };
 

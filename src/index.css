@@ -26,6 +26,12 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+.project-image .card-image {
+  border: 5px purple solid;
+}
+
+
+
 /* Media Query */
 @media (max-width: 1380px) {
   html,
