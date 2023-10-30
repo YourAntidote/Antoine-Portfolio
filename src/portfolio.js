@@ -200,8 +200,22 @@ const bigProjects = {
         {
           name: "Cristal - Youtube",
           url: "https://youtu.be/Jn3yiE3OJA0",
+          
         }
         //  you can add extra buttons here.
+      ]
+    },
+    {
+      image: require("./assets/images/nature.webp"),
+      projectName: "Nature pure",
+      projectDesc: "Nature pure est un projet vidéo auxquelle j'ai contribué pendant 2 mois avec mes partenaires. Le projet repose sur la technologie du logiciel MadMapper.",
+      role: "Rôle: Cadreur, monteur vidéo et sonore",
+      technology: "Technologie: Reaper, DaVinci Resolve",
+      footerLink: [
+        {
+          name: "Nature pure - Youtube",
+          url: "https://youtu.be/3B1WU681xbU"
+        }
       ]
     },
     {
@@ -219,8 +233,8 @@ const bigProjects = {
     },
     {
       image: require("./assets/images/MDM1.png"),
-      projectName: "Mal du Miroir",
-      projectDesc: "Mal du Miroir est un projet vidéo auxquelle j'ai contribué pendant 2 mois avec mes partenaires. Le projet repose sur la technologie du logiciel MadMapper.",
+      projectName: "Mal du Miroir - Behind the scene",
+      projectDesc: "Quelques 'Behind the scene' du projet Mal du Miroir est un projet vidéo auxquelle j'ai contribué.",
       role: "Rôle: Cadreur, monteur vidéo et sonore",
       technology: "Technologie: Maya, Reaper, VCV Rack, DaVinci Resolve et MadMapper",
       footerLink: [
