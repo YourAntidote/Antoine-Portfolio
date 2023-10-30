@@ -232,15 +232,15 @@ const bigProjects = {
       ]
     },
     {
-      image: require("./assets/images/MDM1.png"),
+      image: require("./assets/images/btc.png"),
       projectName: "Mal du Miroir - Behind the scene",
       projectDesc: "Quelques 'Behind the scene' du projet Mal du Miroir est un projet vidéo auxquelle j'ai contribué.",
       role: "Rôle: Cadreur, monteur vidéo et sonore",
       technology: "Technologie: Maya, Reaper, VCV Rack, DaVinci Resolve et MadMapper",
       footerLink: [
         {
-          name: "Mal du Miroir - Youtube",
-          url: "https://youtu.be/yJVsUHux11Y"
+          name: "Mal du Miroir (Behind the scene) - Youtube",
+          url: "https://youtu.be/mMlv-xTHmVM"
         }
       ]
     }
