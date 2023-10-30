@@ -26,7 +26,7 @@ const greeting = {
     "Bienvenue sur mon portfolio en ligne, où je partage mes compétences, mon expérience et ma passion pour l'intégration multimédia, le génie électrique et bien plus encore."
   ),
   resumeLink:
-    "https://drive.google.com/file/d/1ofFdKF_mqscH8WvXkSObnVvC9kK7Ldlu/view?usp=sharing", // Set to empty to hide the button
+    "https://drive.google.com/file/d/10QKJe3uKXQXKM0KuiS4jKtFXZNPZDa_z/view?usp=drive_link", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
@@ -44,17 +44,17 @@ const socialMediaLinks = {
 
 // Skills Section
 
+
 const skillsSection = {
-  title: "Ce que je fais",
-  subTitle: "Je sais utilisé une multidute de logiciels et de languages de programmations",
+  title: "À propos",
+  subTitle: "Étudiant en technique d'intégration multimédias depuis maintenant 2 ans et demi, j'ai appris et découvert une multidute de languages de programmations et de logiciels :",
+
+  
   skills: [
     emoji(
-      "⚡ Develop highly interactive Front end / User Interfaces for your web and mobile applications"
+      "Mon objectif de vie est de rejoindre une équipe passionnée travaillant dans le domaine du média interactif. Mon ambition est de contribuer au développement du divertissement interactif, où je pourrais apporter ma créativité et mes compétences pour créer des expériences engageantes et innovantes. Je suis déterminé à être un acteur clé dans la conception et la réalisation de projets multimédias qui captivent et enthousiasment le public, tout en explorant de nouvelles frontières de l'interactivité. Mon rêve est de jouer un rôle significatif dans l'évolution du divertissement interactif et de participer à la création d'expériences inoubliables pour les utilisateurs du monde entier. "
     ),
-    emoji("⚡ Progressive Web Applications ( PWA ) in normal and SPA Stacks"),
-    emoji(
-      "⚡ Integration of third party services such as Firebase/ AWS / Digital Ocean"
-    )
+
   ],
 
   /* Make Sure to include correct Font Awesome Classname to view your icon

@@ -40,3 +40,19 @@ body {
     line-height: normal;
   }
 }
+
+.dev-icons {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: space-evenly;
+  align-items: space-evenly;
+  font-size: 19px !important;
+  padding: 15px 0px;
+
+}
+
+.dev-icons li {
+  padding: 5px 10px;
+}
