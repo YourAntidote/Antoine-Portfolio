@@ -21,7 +21,7 @@ const illustration = {
 
 const greeting = {
   username: "Antoine Haddad",
-  title: "Bienvenue! Moi c'est Antoine",
+  title: "Bienvenue ! Moi c'est Antoine",
   subTitle: emoji(
     "Bienvenue sur mon portfolio en ligne, où je partage mes compétences, mon expérience et ma passion pour l'intégration multimédia, le génie électrique et bien plus encore."
   ),
@@ -35,7 +35,7 @@ const greeting = {
 const socialMediaLinks = {
   github: "https://github.com/YourAntidote",
   linkedin: "https://www.linkedin.com/in/antoine-haddad16/",
-  gmail: "Antoine_Haddad1@yahoo,ca",
+  gmail: "Antoine_Haddad1@yahoo.ca",
 
   // Instagram, Twitter and Kaggle are also supported in the links!
   // To customize icons and social links, tweak src/components/SocialMedia
@@ -178,10 +178,41 @@ const bigProjects = {
   subtitle: "Mes meilleurs projets jusqu'à ce jour !",
   projects: [
     {
+      image: require("./assets/images/Sonalux.png"),
+      projectName: "Sonalux",
+      projectDesc: "Sonalux est le projet de fin de DEC que j'ai réalisé avec trois autres coéquipiers. Nous avons mis en commun nos trois années d'apprentissage pour créer une œuvre d'interaction audiovisuelle.",
+      role: "Rôle: Installateur de l'espace, codeur Arduino et communication entre les microcontrôleurs et l'ordinateur via le réseau (Open Sound Control).",
+      technology: "TouchDesigner, Triple projection, Microcontrôleur, Arduino.",
+      footerLink: [
+        {
+          name: "Sonalux - Youtube",
+          url: "https://youtu.be/u8Pi4Thq9Vk",
+          
+        },
+        {
+          name: "Sonalux - Github",
+          url: "https://github.com/Sonalux2024/Sonalux"
+        }
+      ]
+    },
+    {
+      image: require("./assets/images/GuessWhoLoL.png"),
+      projectName: "GuessWhoLoL",
+      projectDesc: "GuessWhoLoL est un mini-jeu que j'ai développé dans mon temps libre. Avec mes compétences en langages web, j'ai inséré les informations de tous les personnages fictifs du jeu vidéo 'League of Legends'. En utilisant des listes à cocher dans la barre à navigation et de quelques amis, mon site privé est devenu un mini-jeu inspiré du jeu de société 'Qui Est-ce?'.",
+      technology: "Languages: HTML5, CSS, JavaScript.",
+      footerLink: [
+        {
+          name: "GuessWhoLoL",
+          url: "https://yourantidote.github.io/GuessWhoLoL/"
+        }
+        //  you can add extra buttons here.
+      ]
+    },
+    {
       image: require("./assets/images/rift.png"),
       projectName: "Item's Rift",
-      projectDesc: "Item's Rift est un jeu-quiz que j'ai développé en utilisant des langages web à des fins personnelles. Ce quiz est basé sur l'univers du jeu vidéo League of Legends.",
-      technology: "Languages: HTML5, CSS, JavaScript",
+      projectDesc: "Item's Rift est un jeu-quiz que j'ai développé en utilisant des langages web à des fins personnelles. Ce quiz est basé sur l'univers du jeu vidéo 'League of Legends'. (Saison 13)",
+      technology: "Languages: HTML5, CSS, JavaScript.",
       footerLink: [
         {
           name: "Item's Rift",
